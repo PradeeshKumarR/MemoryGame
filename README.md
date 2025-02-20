@@ -1,21 +1,23 @@
 # Memory Game
 
-This is a simple Memory Game built with HTML, CSS, and JavaScript. The goal is to match pairs of cards by flipping them over.
+A simple memory card game where players need to match pairs of cards by flipping them over.
 
 ## How to Play
 
-1. Click on two cards to flip them over.
-2. If the two cards match, they will remain face-up.
+1. Click on two cards to flip them.
+2. If the two cards match, they will remain flipped.
 3. If the cards don't match, they will flip back after a short delay.
 4. The game ends when all pairs are matched.
 
 ## Features
+
 - Shuffle the cards before starting the game.
 - Track and display matched pairs.
 - Option to restart the game.
 
 ## Demo
-- Check out the live demo of the memory game https://memorygamepradeeshkumarr.netlify.app/
+
+- Check out the live demo of the memory game
 
 ## Setting up the Project
 
@@ -24,6 +26,7 @@ This is a simple Memory Game built with HTML, CSS, and JavaScript. The goal is t
 3. Enjoy the game and try to match all pairs!
 
 ## Technologies Used
+
 - HTML
 - CSS
 - JavaScript (DOM manipulation)
