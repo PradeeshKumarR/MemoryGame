@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
         isBoardLocked = false;
     }
 
+    // Function to restart the game
     function restartGame() {
         flipCards = [];
         matchedCards = [];
@@ -74,7 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
         createGameBoard();
     }
 
+    // Event listener for the restart button
     restartBtn.addEventListener("click", restartGame);
 
+    // Initialize the game
     createGameBoard();
 })
