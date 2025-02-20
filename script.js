@@ -1,10 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
     const gameBoard = document.getElementById("game-board");
     const restartBtn = document.getElementById("restart-btn");
+    const moveCountDisplay = document.getElementById("move-count");
     const cardValues = ["A", "A", "B", "B", "C", "C", "D", "D", "E", "E", "F", "F", "G", "G", "H", "H"];
     let flipCards = [];
     let matchedCards = [];
+    let moveCount = 0; // The number of moves made by the players is tracked and displayed at the top of the screen.
     let isBoardLocked = false;
+    moveCountDisplay.innerHTML = moveCount;
 
     // Function to shuffle the cards
     function shuffleCards() {
@@ -38,6 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
             this.classList.add("flipped");
             this.innerHTML = this.getAttribute("value");
             flipCards.push(this);
+            moveCount++;
+            moveCountDisplay.innerHTML = moveCount;
             if (flipCards.length === 2) {
                 checkMatch();
             }
@@ -67,17 +72,16 @@ document.addEventListener("DOMContentLoaded", () => {
         isBoardLocked = false;
     }
 
-    // Function to restart the game
     function restartGame() {
         flipCards = [];
         matchedCards = [];
         isBoardLocked = false;
+        moveCount = 0;
+        moveCountDisplay.innerHTML = moveCount;
         createGameBoard();
     }
 
-    // Event listener for the restart button
     restartBtn.addEventListener("click", restartGame);
 
-    // Initialize the game
     createGameBoard();
 })
