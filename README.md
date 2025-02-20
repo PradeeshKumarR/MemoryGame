@@ -15,7 +15,7 @@ This is a simple Memory Game built with HTML, CSS, and JavaScript. The goal is t
 - Option to restart the game.
 
 ## Demo
-- Check out the live demo of the memory game 
+- Check out the live demo of the memory game https://memorygamepradeeshkumarr.netlify.app/
 
 ## Setting up the Project
 
