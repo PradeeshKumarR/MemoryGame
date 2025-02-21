@@ -17,7 +17,7 @@ A simple memory card game where players need to match pairs of cards by flipping
 
 ## Demo
 
-- Check out the live demo of the memory game
+- Check out the live demo of the memory game https://memorygamepradeeshkumarr.netlify.app/
 
 ## Setting up the Project
 
