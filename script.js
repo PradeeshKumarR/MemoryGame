@@ -61,9 +61,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 setTimeout(() => { alert("You won! The game is over."); }, 300)
             }
         } else {
+            card1.classList.add("shake");
+            card2.classList.add("shake");
             setTimeout(() => {
                 card1.classList.remove("flipped");
                 card2.classList.remove("flipped");
+                card1.classList.remove("shake");
+                card2.classList.remove("shake");
                 card1.innerHTML = "";
                 card2.innerHTML = "";
             }, 1000)
