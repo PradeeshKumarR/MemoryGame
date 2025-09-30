@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Memory Game</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div class="game-container">
-      <header>
-        <h1>Memory Game</h1>
-        <div class="game-info">
-          <span>Moves: <span id="move-count"></span></span>
-          <button type="button" id="restart-btn">Restart Game</button>
-        </div>
-      </header>
-      <div class="game-board" id="game-board"></div>
-    </div>
-    <script src="./script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Game</title>
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <main class="game-container">
+    <header class="game-header" role="banner">
+      <h1>Memory Game</h1>
+      <section class="game-info" aria-label="Game Controls">
+        <span aria-live="polite" aria-atomic="true">
+          Moves: <span id="move-count">0</span>
+        </span>
+        <button type="button" id="restart-btn" aria-label="Restart Game">
+          Restart Game
+        </button>
+      </section>
+    </header>
+    <!-- Game board for cards -->
+    <section class="game-board" id="game-board" aria-label="Memory Cards" tabindex="0"></section>
+  </main>
+  <!-- Main JavaScript file -->
+  <script src="./script.js" defer></script>
+</body>
+
 </html>
