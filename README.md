@@ -1,19 +1,28 @@
 # Memory Game
 
-A simple memory card game where players need to match pairs of cards by flipping them over.
+A simple, responsive memory card game where players match pairs of cards by flipping them over.
+
+## Table of Contents
+
+- [How to Play](#how-to-play)
+- [Features](#features)
+- [Demo](#demo)
+- [Setup](#setup)
+- [Technologies Used](#technologies-used)
 
 ## How to Play
 
-1. Click on two cards to flip them.
-2. If the two cards match, they will remain flipped.
-3. If the cards don't match, they will flip back after a short delay.
-4. The game ends when all pairs are matched.
+1. Click or tap on two cards to flip them.
+2. If the cards match, they remain revealed.
+3. If they don't match, they flip back after a short delay.
+4. Match all pairs to win the game!
 
 ## Features
 
-- Shuffle the cards before starting the game.
-- Track and display matched pairs.
-- Option to restart the game.
+- Shuffled cards on every game start
+- Responsive design for all devices
+- Move counter to track your progress
+- Option to restart the game at any time
 
 ## Demo
 
@@ -21,9 +30,9 @@ A simple memory card game where players need to match pairs of cards by flipping
 
 ## Setting up the Project
 
-1. Clone or download the repository.
-2. Open the `index.html` file in a web browser.
-3. Enjoy the game and try to match all pairs!
+1. **Clone or download** this repository.
+2. **Open** the `index.html` file in your web browser.
+3. **Play** and enjoy the game!
 
 ## Technologies Used
 
