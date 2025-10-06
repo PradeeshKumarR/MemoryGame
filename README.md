@@ -7,7 +7,7 @@ A simple, responsive memory card game where players match pairs of cards by flip
 - [How to Play](#how-to-play)
 - [Features](#features)
 - [Demo](#demo)
-- [Setup](#setup)
+- [Setting up the Project](#setting-up-the-project)
 - [Technologies Used](#technologies-used)
 
 ## How to Play
